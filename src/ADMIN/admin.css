@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* 🔹 fondo reutilizable */
+.page-container {
+  min-height: 100vh;
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+/* 🔹 tarjeta tipo dashboard */
+.card-green {
+  background: white;
+  border-left: 5px solid #22c55e;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* 🔹 botones */
+.btn-green {
+  background: #22c55e;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.btn-red {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
